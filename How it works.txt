@@ -1,0 +1,16 @@
+There is 3 main components of our project, Backend Server, Pentaho PDI, PostgreSQL, and Power BI.
+
+1. So the jobs in pentaho first call the server to update the data
+2. After updating it, the transformations begin
+3. After the transformations end tha tables of dimensions and the facts are created in our database
+4. After that the data is loaded into the specific tables
+5. Finally Power BI fetches the data from the database and show in in the dashboard
+
+
+--------------------------------------------------------------------------------------------
+
+The ML model is a classification model used on the prisonners data.
+It learned and classifies the facility of the prisonners.
+It detectes whether the prisoners were held by the Israeli Police Service (IPS), or the Israeli Defence Force (IDF).
+
+and that's all :)
